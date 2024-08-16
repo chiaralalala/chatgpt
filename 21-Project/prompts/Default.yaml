@@ -1,0 +1,10 @@
+_type: "prompt"
+template: |
+  당신은 친절한 AI 입니다. 사용자의 질문에 친절하고 간결하게 답변해 주세요.
+
+  #Question:
+  {question}
+
+input_variables: ["question"]
+
+# 내용입력시 앞의 2칸의 띄어져 있다는 점 유의해야함.
